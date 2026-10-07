@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <form>
+            <label>Username</label>
+            <input type="text" name="username" placeholder="Enter your username" />
+
+            <label>Age</label>
+            <input type="number" name="age" placeholder="Enter your age" />
+
+            <label>Email</label>
+            <input type="email" name="email" required placeholder="Enter your email"  maxlength="20" minlength="1"/>
+
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter your password" />
+
+            <label>Date</label>
+            <input type="date" name="date" placeholder="Enter your date" />
+
+            <label>Gender</label>
+            <input type="radio" name="gender" placeholder="Enter your gender" />
+            <label>Male</label>
+            
+            <input type="radio" name="gender" placeholder="Enter your gender" />
+            <label>Female</label><br />
+
+            <label>Country</label>
+            <select name="country">
+                <option value="us">United States</option>
+                <option value="ca">Canada</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+
+            <label>Feedback</label>
+            <textarea name="feedback" placeholder="Enter your feedback"></textarea>
+
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>    
+       
