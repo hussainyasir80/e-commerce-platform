@@ -14,7 +14,7 @@
             <input type="number" name="age" placeholder="Enter your age" />
 
             <label>Email</label>
-            <input type="email" name="email" placeholder="Enter your email" required/>
+            <input type="email" name="email" required placeholder="Enter your email"  maxlength="20" minlength="1"/>
 
             <label>Password</label>
             <input type="password" name="password" placeholder="Enter your password" />
@@ -27,13 +27,20 @@
             <label>Male</label>
             
             <input type="radio" name="gender" placeholder="Enter your gender" />
-            <label>Female</label><br
-            
+            <label>Female</label><br />
+
+            <label>Country</label>
+            <select name="country">
+                <option value="us">United States</option>
+                <option value="ca">Canada</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+
             <label>Feedback</label>
-            <textarea>
-             
-            </textarea>
+            <textarea name="feedback" placeholder="Enter your feedback"></textarea>
+
+            <input type="submit" value="Submit" />
         </form>
     </body>
-
-</html>
+</html>    
+       
